@@ -1,0 +1,11 @@
+{
+  "storage.mysql-engine.max-size": 8000000,
+  "darkconsole.enabled": true,
+  "phabricator.show-prototypes": true,
+  "phabricator.developer-mode": true,
+  "phd.user": "{{castable_system_user}}",
+  "phabricator.base-uri": "{{http_protocol}}://{{castable_admin_domain}}/",
+  "security.alternate-file-domain": "http://{{cdn_domain}}",
+  "mysql.pass": "{{mysql_pass}",
+  "mysql.user": "{{mysql_user}"
+}
