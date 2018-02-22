@@ -1,0 +1,9 @@
+[submodule "phacility/phabricator"]
+	path = phacility/phabricator
+	url = ssh://secure@secure.phabricator.com/source/phabricator.git
+[submodule "phacility/libphutil"]
+	path = phacility/libphutil
+	url = ssh://secure@secure.phabricator.com/source/libphutil.git
+[submodule "phacility/arcanist"]
+	path = phacility/arcanist
+	url = ssh://secure@secure.phabricator.com/diffusion/ARC/arcanist.git
