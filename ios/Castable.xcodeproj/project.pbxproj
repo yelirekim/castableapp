@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB9FA757204082220042E5A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA756204082220042E5A9 /* AppDelegate.m */; };
+		FB9FA75A204082220042E5A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA759204082220042E5A9 /* ViewController.m */; };
+		FB9FA75D204082220042E5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9FA75B204082220042E5A9 /* Main.storyboard */; };
+		FB9FA760204082220042E5A9 /* Castable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA75E204082220042E5A9 /* Castable.xcdatamodeld */; };
+		FB9FA762204082220042E5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9FA761204082220042E5A9 /* Assets.xcassets */; };
+		FB9FA765204082220042E5A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9FA763204082220042E5A9 /* LaunchScreen.storyboard */; };
+		FB9FA768204082220042E5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA767204082220042E5A9 /* main.m */; };
+		FB9FA772204082220042E5A9 /* CastableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA771204082220042E5A9 /* CastableTests.m */; };
+		FB9FA77D204082220042E5A9 /* CastableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA77C204082220042E5A9 /* CastableUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB9FA76E204082220042E5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9FA74A204082210042E5A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9FA751204082220042E5A9;
+			remoteInfo = Castable;
+		};
+		FB9FA779204082220042E5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9FA74A204082210042E5A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9FA751204082220042E5A9;
+			remoteInfo = Castable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB9FA752204082220042E5A9 /* Castable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9FA755204082220042E5A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB9FA756204082220042E5A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB9FA758204082220042E5A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB9FA759204082220042E5A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB9FA75C204082220042E5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB9FA75F204082220042E5A9 /* Castable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Castable.xcdatamodel; sourceTree = "<group>"; };
+		FB9FA761204082220042E5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB9FA764204082220042E5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB9FA766204082220042E5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9FA767204082220042E5A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB9FA76D204082220042E5A9 /* CastableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9FA771204082220042E5A9 /* CastableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastableTests.m; sourceTree = "<group>"; };
+		FB9FA773204082220042E5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9FA778204082220042E5A9 /* CastableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9FA77C204082220042E5A9 /* CastableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastableUITests.m; sourceTree = "<group>"; };
+		FB9FA77E204082220042E5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9FA74F204082220042E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9FA76A204082220042E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9FA775204082220042E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB9FA749204082210042E5A9 = {
+			isa = PBXGroup;
+			children = (
+				FB9FA754204082220042E5A9 /* Castable */,
+				FB9FA770204082220042E5A9 /* CastableTests */,
+				FB9FA77B204082220042E5A9 /* CastableUITests */,
+				FB9FA753204082220042E5A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9FA753204082220042E5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9FA752204082220042E5A9 /* Castable.app */,
+				FB9FA76D204082220042E5A9 /* CastableTests.xctest */,
+				FB9FA778204082220042E5A9 /* CastableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9FA754204082220042E5A9 /* Castable */ = {
+			isa = PBXGroup;
+			children = (
+				FB9FA755204082220042E5A9 /* AppDelegate.h */,
+				FB9FA756204082220042E5A9 /* AppDelegate.m */,
+				FB9FA758204082220042E5A9 /* ViewController.h */,
+				FB9FA759204082220042E5A9 /* ViewController.m */,
+				FB9FA75B204082220042E5A9 /* Main.storyboard */,
+				FB9FA761204082220042E5A9 /* Assets.xcassets */,
+				FB9FA763204082220042E5A9 /* LaunchScreen.storyboard */,
+				FB9FA766204082220042E5A9 /* Info.plist */,
+				FB9FA767204082220042E5A9 /* main.m */,
+				FB9FA75E204082220042E5A9 /* Castable.xcdatamodeld */,
+			);
+			path = Castable;
+			sourceTree = "<group>";
+		};
+		FB9FA770204082220042E5A9 /* CastableTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9FA771204082220042E5A9 /* CastableTests.m */,
+				FB9FA773204082220042E5A9 /* Info.plist */,
+			);
+			path = CastableTests;
+			sourceTree = "<group>";
+		};
+		FB9FA77B204082220042E5A9 /* CastableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9FA77C204082220042E5A9 /* CastableUITests.m */,
+				FB9FA77E204082220042E5A9 /* Info.plist */,
+			);
+			path = CastableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9FA751204082220042E5A9 /* Castable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9FA781204082220042E5A9 /* Build configuration list for PBXNativeTarget "Castable" */;
+			buildPhases = (
+				FB9FA74E204082220042E5A9 /* Sources */,
+				FB9FA74F204082220042E5A9 /* Frameworks */,
+				FB9FA750204082220042E5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castable;
+			productName = Castable;
+			productReference = FB9FA752204082220042E5A9 /* Castable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB9FA76C204082220042E5A9 /* CastableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9FA784204082220042E5A9 /* Build configuration list for PBXNativeTarget "CastableTests" */;
+			buildPhases = (
+				FB9FA769204082220042E5A9 /* Sources */,
+				FB9FA76A204082220042E5A9 /* Frameworks */,
+				FB9FA76B204082220042E5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9FA76F204082220042E5A9 /* PBXTargetDependency */,
+			);
+			name = CastableTests;
+			productName = CastableTests;
+			productReference = FB9FA76D204082220042E5A9 /* CastableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB9FA777204082220042E5A9 /* CastableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9FA787204082220042E5A9 /* Build configuration list for PBXNativeTarget "CastableUITests" */;
+			buildPhases = (
+				FB9FA774204082220042E5A9 /* Sources */,
+				FB9FA775204082220042E5A9 /* Frameworks */,
+				FB9FA776204082220042E5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9FA77A204082220042E5A9 /* PBXTargetDependency */,
+			);
+			name = CastableUITests;
+			productName = CastableUITests;
+			productReference = FB9FA778204082220042E5A9 /* CastableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB9FA74A204082210042E5A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Panopsis;
+				TargetAttributes = {
+					FB9FA751204082220042E5A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB9FA76C204082220042E5A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB9FA751204082220042E5A9;
+					};
+					FB9FA777204082220042E5A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB9FA751204082220042E5A9;
+					};
+				};
+			};
+			buildConfigurationList = FB9FA74D204082210042E5A9 /* Build configuration list for PBXProject "Castable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB9FA749204082210042E5A9;
+			productRefGroup = FB9FA753204082220042E5A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9FA751204082220042E5A9 /* Castable */,
+				FB9FA76C204082220042E5A9 /* CastableTests */,
+				FB9FA777204082220042E5A9 /* CastableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB9FA750204082220042E5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9FA765204082220042E5A9 /* LaunchScreen.storyboard in Resources */,
+				FB9FA762204082220042E5A9 /* Assets.xcassets in Resources */,
+				FB9FA75D204082220042E5A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9FA76B204082220042E5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9FA776204082220042E5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9FA74E204082220042E5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9FA75A204082220042E5A9 /* ViewController.m in Sources */,
+				FB9FA760204082220042E5A9 /* Castable.xcdatamodeld in Sources */,
+				FB9FA768204082220042E5A9 /* main.m in Sources */,
+				FB9FA757204082220042E5A9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9FA769204082220042E5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9FA772204082220042E5A9 /* CastableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9FA774204082220042E5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9FA77D204082220042E5A9 /* CastableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB9FA76F204082220042E5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9FA751204082220042E5A9 /* Castable */;
+			targetProxy = FB9FA76E204082220042E5A9 /* PBXContainerItemProxy */;
+		};
+		FB9FA77A204082220042E5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9FA751204082220042E5A9 /* Castable */;
+			targetProxy = FB9FA779204082220042E5A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB9FA75B204082220042E5A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9FA75C204082220042E5A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB9FA763204082220042E5A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9FA764204082220042E5A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB9FA77F204082220042E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB9FA780204082220042E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB9FA782204082220042E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S89BB3ZSCL;
+				INFOPLIST_FILE = Castable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.panopsis.Castable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB9FA783204082220042E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S89BB3ZSCL;
+				INFOPLIST_FILE = Castable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.panopsis.Castable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB9FA785204082220042E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S89BB3ZSCL;
+				INFOPLIST_FILE = CastableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.panopsis.CastableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castable.app/Castable";
+			};
+			name = Debug;
+		};
+		FB9FA786204082220042E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S89BB3ZSCL;
+				INFOPLIST_FILE = CastableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.panopsis.CastableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castable.app/Castable";
+			};
+			name = Release;
+		};
+		FB9FA788204082220042E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S89BB3ZSCL;
+				INFOPLIST_FILE = CastableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.panopsis.CastableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Castable;
+			};
+			name = Debug;
+		};
+		FB9FA789204082220042E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S89BB3ZSCL;
+				INFOPLIST_FILE = CastableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.panopsis.CastableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Castable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB9FA74D204082210042E5A9 /* Build configuration list for PBXProject "Castable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9FA77F204082220042E5A9 /* Debug */,
+				FB9FA780204082220042E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9FA781204082220042E5A9 /* Build configuration list for PBXNativeTarget "Castable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9FA782204082220042E5A9 /* Debug */,
+				FB9FA783204082220042E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9FA784204082220042E5A9 /* Build configuration list for PBXNativeTarget "CastableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9FA785204082220042E5A9 /* Debug */,
+				FB9FA786204082220042E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9FA787204082220042E5A9 /* Build configuration list for PBXNativeTarget "CastableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9FA788204082220042E5A9 /* Debug */,
+				FB9FA789204082220042E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB9FA75E204082220042E5A9 /* Castable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB9FA75F204082220042E5A9 /* Castable.xcdatamodel */,
+			);
+			currentVersion = FB9FA75F204082220042E5A9 /* Castable.xcdatamodel */;
+			path = Castable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB9FA74A204082210042E5A9 /* Project object */;
+}
