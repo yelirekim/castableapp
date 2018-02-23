@@ -10,8 +10,26 @@
 		356D23FC4AFA5323740C904D /* libPods-CastableTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6057EF749E8D1A11635B2C3D /* libPods-CastableTests.a */; };
 		773C39273E5FA13F911AA896 /* libPods-Castable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0116A905CFE7B38A157EE80 /* libPods-Castable.a */; };
 		AF07DF8B6D6B249A68DEA8A3 /* libPods-CastableUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A95D421ACA093BC637366 /* libPods-CastableUITests.a */; };
-		FB9FA757204082220042E5A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA756204082220042E5A9 /* AppDelegate.m */; };
-		FB9FA75A204082220042E5A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA759204082220042E5A9 /* ViewController.m */; };
+		FB5ED3DE20408D3700EBDC18 /* CACastableAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3DD20408D3700EBDC18 /* CACastableAPI.m */; };
+		FB5ED3DF20408D3700EBDC18 /* CACastableAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3DD20408D3700EBDC18 /* CACastableAPI.m */; };
+		FB5ED3E020408D3700EBDC18 /* CACastableAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3DD20408D3700EBDC18 /* CACastableAPI.m */; };
+		FB5ED3E820409A6900EBDC18 /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3E720409A6900EBDC18 /* CAViewController.m */; };
+		FB5ED3E920409A6900EBDC18 /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3E720409A6900EBDC18 /* CAViewController.m */; };
+		FB5ED3EA20409A6900EBDC18 /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3E720409A6900EBDC18 /* CAViewController.m */; };
+		FB5ED3ED20409ADF00EBDC18 /* CALibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3EC20409ADF00EBDC18 /* CALibraryViewController.m */; };
+		FB5ED3EE20409ADF00EBDC18 /* CALibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3EC20409ADF00EBDC18 /* CALibraryViewController.m */; };
+		FB5ED3EF20409ADF00EBDC18 /* CALibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3EC20409ADF00EBDC18 /* CALibraryViewController.m */; };
+		FB5ED3F220409E9800EBDC18 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED3F120409E9800EBDC18 /* config.plist */; };
+		FB5ED3F320409E9800EBDC18 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED3F120409E9800EBDC18 /* config.plist */; };
+		FB5ED3F420409E9800EBDC18 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED3F120409E9800EBDC18 /* config.plist */; };
+		FB5ED3F820409F1400EBDC18 /* CAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3F720409F1400EBDC18 /* CAConfig.m */; };
+		FB5ED3F920409F1400EBDC18 /* CAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3F720409F1400EBDC18 /* CAConfig.m */; };
+		FB5ED3FA20409F1400EBDC18 /* CAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3F720409F1400EBDC18 /* CAConfig.m */; };
+		FB5ED3FE2040A0C600EBDC18 /* CASingletons.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3FD2040A0C600EBDC18 /* CASingletons.m */; };
+		FB5ED3FF2040A0C600EBDC18 /* CASingletons.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3FD2040A0C600EBDC18 /* CASingletons.m */; };
+		FB5ED4002040A0C600EBDC18 /* CASingletons.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED3FD2040A0C600EBDC18 /* CASingletons.m */; };
+		FB9FA757204082220042E5A9 /* CAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA756204082220042E5A9 /* CAAppDelegate.m */; };
+		FB9FA75A204082220042E5A9 /* CAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA759204082220042E5A9 /* CAHomeViewController.m */; };
 		FB9FA75D204082220042E5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9FA75B204082220042E5A9 /* Main.storyboard */; };
 		FB9FA760204082220042E5A9 /* Castable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB9FA75E204082220042E5A9 /* Castable.xcdatamodeld */; };
 		FB9FA762204082220042E5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9FA761204082220042E5A9 /* Assets.xcassets */; };
@@ -48,11 +66,23 @@
 		C0116A905CFE7B38A157EE80 /* libPods-Castable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Castable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4496E70318C121C44AD671F /* Pods-CastableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastableUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastableUITests/Pods-CastableUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB3124E24BE3E6D64FFF87CB /* Pods-CastableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastableUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastableUITests/Pods-CastableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5ED3DC20408D3700EBDC18 /* CACastableAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACastableAPI.h; sourceTree = "<group>"; };
+		FB5ED3DD20408D3700EBDC18 /* CACastableAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACastableAPI.m; sourceTree = "<group>"; };
+		FB5ED3E620409A6900EBDC18 /* CAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAViewController.h; sourceTree = "<group>"; };
+		FB5ED3E720409A6900EBDC18 /* CAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAViewController.m; sourceTree = "<group>"; };
+		FB5ED3EB20409ADF00EBDC18 /* CALibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALibraryViewController.h; sourceTree = "<group>"; };
+		FB5ED3EC20409ADF00EBDC18 /* CALibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALibraryViewController.m; sourceTree = "<group>"; };
+		FB5ED3F120409E9800EBDC18 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		FB5ED3F620409F1400EBDC18 /* CAConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAConfig.h; sourceTree = "<group>"; };
+		FB5ED3F720409F1400EBDC18 /* CAConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAConfig.m; sourceTree = "<group>"; };
+		FB5ED3FC2040A0C600EBDC18 /* CASingletons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASingletons.h; sourceTree = "<group>"; };
+		FB5ED3FD2040A0C600EBDC18 /* CASingletons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASingletons.m; sourceTree = "<group>"; };
+		FB5ED4012040A10900EBDC18 /* CASingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASingleton.h; sourceTree = "<group>"; };
 		FB9FA752204082220042E5A9 /* Castable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB9FA755204082220042E5A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FB9FA756204082220042E5A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB9FA758204082220042E5A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB9FA759204082220042E5A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB9FA755204082220042E5A9 /* CAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAppDelegate.h; sourceTree = "<group>"; };
+		FB9FA756204082220042E5A9 /* CAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAppDelegate.m; sourceTree = "<group>"; };
+		FB9FA758204082220042E5A9 /* CAHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAHomeViewController.h; sourceTree = "<group>"; };
+		FB9FA759204082220042E5A9 /* CAHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAHomeViewController.m; sourceTree = "<group>"; };
 		FB9FA75C204082220042E5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB9FA75F204082220042E5A9 /* Castable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Castable.xcdatamodel; sourceTree = "<group>"; };
 		FB9FA761204082220042E5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +148,81 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FB5ED3D720408A4D00EBDC18 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED3DC20408D3700EBDC18 /* CACastableAPI.h */,
+				FB5ED3DD20408D3700EBDC18 /* CACastableAPI.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FB5ED3E120408FAC00EBDC18 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED3F520409EF500EBDC18 /* Config */,
+				FB5ED3D720408A4D00EBDC18 /* API */,
+				FB5ED3FC2040A0C600EBDC18 /* CASingletons.h */,
+				FB5ED3FD2040A0C600EBDC18 /* CASingletons.m */,
+				FB5ED4012040A10900EBDC18 /* CASingleton.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FB5ED3E2204099F000EBDC18 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED3E320409A0000EBDC18 /* Controllers */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		FB5ED3E320409A0000EBDC18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED3E520409A4200EBDC18 /* Library */,
+				FB5ED3E420409A3800EBDC18 /* Home */,
+				FB5ED3E620409A6900EBDC18 /* CAViewController.h */,
+				FB5ED3E720409A6900EBDC18 /* CAViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB5ED3E420409A3800EBDC18 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB9FA758204082220042E5A9 /* CAHomeViewController.h */,
+				FB9FA759204082220042E5A9 /* CAHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB5ED3E520409A4200EBDC18 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED3EB20409ADF00EBDC18 /* CALibraryViewController.h */,
+				FB5ED3EC20409ADF00EBDC18 /* CALibraryViewController.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FB5ED3F020409DEE00EBDC18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED3F120409E9800EBDC18 /* config.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB5ED3F520409EF500EBDC18 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED3F620409F1400EBDC18 /* CAConfig.h */,
+				FB5ED3F720409F1400EBDC18 /* CAConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		FB9FA749204082210042E5A9 = {
 			isa = PBXGroup;
 			children = (
@@ -143,10 +248,11 @@
 		FB9FA754204082220042E5A9 /* Castable */ = {
 			isa = PBXGroup;
 			children = (
-				FB9FA755204082220042E5A9 /* AppDelegate.h */,
-				FB9FA756204082220042E5A9 /* AppDelegate.m */,
-				FB9FA758204082220042E5A9 /* ViewController.h */,
-				FB9FA759204082220042E5A9 /* ViewController.m */,
+				FB5ED3F020409DEE00EBDC18 /* Resources */,
+				FB5ED3E2204099F000EBDC18 /* Interface */,
+				FB5ED3E120408FAC00EBDC18 /* Library */,
+				FB9FA755204082220042E5A9 /* CAAppDelegate.h */,
+				FB9FA756204082220042E5A9 /* CAAppDelegate.m */,
 				FB9FA75B204082220042E5A9 /* Main.storyboard */,
 				FB9FA761204082220042E5A9 /* Assets.xcassets */,
 				FB9FA763204082220042E5A9 /* LaunchScreen.storyboard */,
@@ -290,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5ED3F220409E9800EBDC18 /* config.plist in Resources */,
 				FB9FA765204082220042E5A9 /* LaunchScreen.storyboard in Resources */,
 				FB9FA762204082220042E5A9 /* Assets.xcassets in Resources */,
 				FB9FA75D204082220042E5A9 /* Main.storyboard in Resources */,
@@ -300,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5ED3F320409E9800EBDC18 /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5ED3F420409E9800EBDC18 /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,10 +573,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9FA75A204082220042E5A9 /* ViewController.m in Sources */,
+				FB5ED3ED20409ADF00EBDC18 /* CALibraryViewController.m in Sources */,
+				FB9FA75A204082220042E5A9 /* CAHomeViewController.m in Sources */,
+				FB5ED3DE20408D3700EBDC18 /* CACastableAPI.m in Sources */,
+				FB5ED3E820409A6900EBDC18 /* CAViewController.m in Sources */,
 				FB9FA760204082220042E5A9 /* Castable.xcdatamodeld in Sources */,
 				FB9FA768204082220042E5A9 /* main.m in Sources */,
-				FB9FA757204082220042E5A9 /* AppDelegate.m in Sources */,
+				FB9FA757204082220042E5A9 /* CAAppDelegate.m in Sources */,
+				FB5ED3FE2040A0C600EBDC18 /* CASingletons.m in Sources */,
+				FB5ED3F820409F1400EBDC18 /* CAConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +589,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5ED3EE20409ADF00EBDC18 /* CALibraryViewController.m in Sources */,
+				FB5ED3FF2040A0C600EBDC18 /* CASingletons.m in Sources */,
 				FB9FA772204082220042E5A9 /* CastableTests.m in Sources */,
+				FB5ED3DF20408D3700EBDC18 /* CACastableAPI.m in Sources */,
+				FB5ED3F920409F1400EBDC18 /* CAConfig.m in Sources */,
+				FB5ED3E920409A6900EBDC18 /* CAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +602,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5ED3EF20409ADF00EBDC18 /* CALibraryViewController.m in Sources */,
+				FB5ED4002040A0C600EBDC18 /* CASingletons.m in Sources */,
 				FB9FA77D204082220042E5A9 /* CastableUITests.m in Sources */,
+				FB5ED3E020408D3700EBDC18 /* CACastableAPI.m in Sources */,
+				FB5ED3FA20409F1400EBDC18 /* CAConfig.m in Sources */,
+				FB5ED3EA20409A6900EBDC18 /* CAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

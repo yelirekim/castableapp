@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  CAAppDelegate.m
 //  Castable
 //
 //  Created by Mike Riley on 2/23/18.
 //  Copyright © 2018 Panopsis. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "CAAppDelegate.h"
 
-@interface AppDelegate ()
+@interface CAAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation CAAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

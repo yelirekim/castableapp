@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  CAHomeViewController.m
 //  Castable
 //
 //  Created by Mike Riley on 2/23/18.
 //  Copyright © 2018 Panopsis. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CAHomeViewController.h"
 
-@interface ViewController ()
+@interface CAHomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CAHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

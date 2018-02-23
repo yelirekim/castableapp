@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  CALibraryViewController.h
 //  Castable
 //
 //  Created by Mike Riley on 2/23/18.
 //  Copyright © 2018 Panopsis. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CAViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface CALibraryViewController : CAViewController
 
 @end
-

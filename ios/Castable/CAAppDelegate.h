@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CAAppDelegate.h
 //  Castable
 //
 //  Created by Mike Riley on 2/23/18.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface CAAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
