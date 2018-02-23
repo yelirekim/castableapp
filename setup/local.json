@@ -1,5 +1,8 @@
 {
   "storage.mysql-engine.max-size": 8000000,
+  "load-libraries": [
+    "{{castable_local_path}}/castable/src/"
+  ],
   "darkconsole.enabled": true,
   "phabricator.show-prototypes": true,
   "phabricator.developer-mode": true,
