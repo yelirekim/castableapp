@@ -9,6 +9,11 @@
 phutil_register_library_map(array(
   '__library_version__' => 2,
   'class' => array(
+    'CACastableAPI404Controller' => 'sites/api/CACastableAPI404Controller.php',
+    'CACastableAPIApplication' => 'sites/api/CACastableAPIApplication.php',
+    'CACastableAPIController' => 'sites/api/CACastableAPIController.php',
+    'CACastableAPISite' => 'sites/api/CACastableAPISite.php',
+    'CACastableSite' => 'sites/CACastableSite.php',
     'CAPodcast' => 'applications/podcasts/storage/CAPodcast.php',
     'CAPodcastITunesSource' => 'applications/podcasts/source/CAPodcastITunesSource.php',
     'CAPodcastListController' => 'applications/podcasts/controller/CAPodcastListController.php',
@@ -32,6 +37,11 @@ phutil_register_library_map(array(
     'ca_resolve_subpath' => 'infrastructure/filesystem/paths.php',
   ),
   'xmap' => array(
+    'CACastableAPI404Controller' => 'PhabricatorController',
+    'CACastableAPIApplication' => 'PhabricatorApplication',
+    'CACastableAPIController' => 'PhabricatorConduitController',
+    'CACastableAPISite' => 'CACastableSite',
+    'CACastableSite' => 'PhabricatorSite',
     'CAPodcast' => array(
       'CAPodcastsDAO',
       'PhabricatorPolicyInterface',
