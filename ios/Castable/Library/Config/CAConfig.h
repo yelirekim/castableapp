@@ -11,8 +11,8 @@
 
 @interface CAConfig : NSObject
 
-- (NSURL *)apiURI;
-
 CA_DECLARE_SINGLETON(Config)
+
+- (NSURL *)apiURI;
 
 @end
