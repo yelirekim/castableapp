@@ -9,10 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "CASingletons.h"
 
-@interface CAConfig : NSObject
+@interface CAConfig : NSObject {
+    NSDictionary * _config;
+}
 
 CA_DECLARE_SINGLETON(Config)
 
 - (NSURL *)apiURI;
+- (NSString *)apiKey;
 
 @end

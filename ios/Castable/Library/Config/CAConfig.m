@@ -8,12 +8,26 @@
 
 #import "CAConfig.h"
 
+@interface CAConfig ()
+@property (nonatomic, readonly) NSDictionary * config;
+@end
+
 @implementation CAConfig
 
+- (NSDictionary *)config {
+    if (_config == nil) {
+        _config = [[NSDictionary alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"config"
+                                                                                              ofType:@"plist"]];
+    }
+    return _config;
+}
+
 - (NSURL *)apiURI {
-    NSDictionary *contents = [[NSDictionary alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"config"
-                                                                                                         ofType:@"plist"]];
-    return [NSURL URLWithString:[contents valueForKey:@"api-uri"]];
+    return [NSURL URLWithString:[self.config valueForKey:@"api-uri"]];
+}
+
+- (NSString *)apiKey {
+    return [NSURL URLWithString:[self.config valueForKey:@"api-key"]];
 }
 
 CA_SYNTHESIZE_SINGLETON(Config)

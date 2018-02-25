@@ -7,6 +7,7 @@
 //
 
 #import "CAAppDelegate.h"
+#import "CASingletons.h"
 
 @interface CAAppDelegate ()
 
@@ -16,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[CASingletons sharedSingletons] start];
     return YES;
 }
 

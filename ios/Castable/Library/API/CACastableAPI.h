@@ -7,9 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CASingletons.h"
 
-typedef void (^CACastableAPIPodcastListResponseHandler)(NSArray *);
+typedef void (^CACastableAPIPodcastListResponseHandler) (NSArray *);
 
-@interface CACastableAPI : NSObject
+@interface CACastableAPI <CASingleton> : NSObject
+
+CA_DECLARE_SINGLETON(CastableAPI)
+
+- (void)start;
 
 @end

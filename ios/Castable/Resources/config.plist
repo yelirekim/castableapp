@@ -2,7 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>api-key</key>
+	<string>api-yawmil4ifyosx23mkyro7b5z4nhz</string>
 	<key>api-uri</key>
-	<string>http://castableapp.com/api/</string>
+	<string>http://api.castableapp.com/</string>
 </dict>
 </plist>

@@ -8,6 +8,7 @@
 
 #import "CASingletons.h"
 #import "CAConfig.h"
+#import "CACastableAPI.h"
 
 @interface CASingletons ()
 @property (nonatomic, readonly) NSArray * singletons;
@@ -15,12 +16,13 @@
 
 @implementation CASingletons
 
-- (NSArray *)applicationSingletons
+- (NSArray *)singletons
 {
     if(_singletons == nil) {
         _singletons = [NSArray arrayWithObjects:
-                          [CAConfig sharedConfig],
-                          nil];
+                       [CAConfig sharedConfig],
+                       [CACastableAPI sharedCastableAPI],
+                       nil];
     }
     return _singletons;
 }
